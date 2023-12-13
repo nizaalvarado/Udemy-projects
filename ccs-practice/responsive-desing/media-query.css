@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+
+/*Common breakpoints depending on each device: 
+Mobile devices: 319px - 480px. 
+ipads and tablets: 481px - 1200px.
+Laptops: 1201px - 1600px.
+Desktops: 1601px and more. */
+
+@media (max-width: 480px){
+    body{
+        background-color: purple;
+    }
+}
+
+@media (max-width: 1200px){
+    body{
+        background-color: pink;
+    }
+}
+
+@media (max-width: 1600px){
+    body{
+        background-color:maroon ;
+    }
+}
+
+@media (min-width: 1601px){
+    body{
+        background-color: rgb((72, 128, 176), 88);
+    }
+}

@@ -1,0 +1,45 @@
+.web-tittle{
+    color: rgb(206, 206, 5);
+}
+
+.word-span{
+    color: rgb(0, 0, 155);
+}
+
+.footer-words{
+    color: rgb(75, 75, 113);
+}
+
+h3{
+    text-align: justify;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+
+.main-container{
+    grid-column: span 2;
+}
+
+.container-2{
+    display: flex;
+}
+
+.img-flores{
+    border: 30px solid white;
+    width: 50%;
+    flex-direction: row;
+}
+
+.tittle-2{
+    flex: content;
+    flex-direction: row;
+}
+
+.lorem-1{
+    flex: content;
+    flex-direction: row;
+}
