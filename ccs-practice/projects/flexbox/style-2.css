@@ -1,0 +1,47 @@
+.main-container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 70vh; /*'vh' stands for viweport hight. so the whole screen is 100vh, and you can
+    adjust it by percentage.*/
+    align-items: center;
+}
+h3{
+    color: white;
+    justify-content: center;
+}
+/*inline-flex help us to set into the container only the size of its elements.*/
+/*with '*' we select the customes for all of the elements.*/
+.main-container > *{
+    flex-basis: 100px;
+}
+.orange{
+    background-color: orange;
+}
+.Red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+    align-self: flex-end;
+}
+.blue{
+    background-color: blue;
+}
+.Indigo{
+    background-color: indigo;
+}
+.purple{
+    background-color: purple;
+}
+.pink{
+    background-color: pink;
+    align-self: flex-end;
+}
+
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/

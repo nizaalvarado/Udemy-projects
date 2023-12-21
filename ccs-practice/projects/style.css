@@ -29,6 +29,7 @@ h3{
 }
 
 .img-flores{
+    float: left;
     border: 30px solid white;
     width: 50%;
     flex-direction: row;
@@ -43,3 +44,14 @@ h3{
     flex: content;
     flex-direction: row;
 }
+
+.img-building{
+    float: left;
+    border: 30px;
+    width:  50%;
+    flex-direction: row;
+    margin: 2px;
+}
+/*We use 'float' to custome an image around a text. 
+We use 'flex' or 'grind' to custome the overall page structure.*/
+
