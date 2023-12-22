@@ -1,0 +1,22 @@
+.main-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.div1{
+    background-color: pink;
+    flex-basis: 200px;
+}
+
+.div2{
+    background-color: lightcoral;
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+
+.div3{
+    background-color: lightsalmon;
+    flex-basis: 400px;
+    flex-shrink: 0;
+}
