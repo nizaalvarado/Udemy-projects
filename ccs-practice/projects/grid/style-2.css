@@ -1,0 +1,47 @@
+/*We have different parts in our grid:
+Containers: usually a div that contains the grid. 
+Items: the grid inside the container. 
+Columns: vertical. 
+rows: horizontal. 
+tracks: columns + rows. 
+cells: the intersections of the tracks. the smallest unit on the grid. 
+Lines: the lines that separate our tracks -----> use the 'gap' property to controll them. 
+*/
+
+.main-container{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+}
+
+/* the 'grid-column/row: span' property helps us to span as many cells as we specify'*/
+
+.one{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 2;
+}
+
+/* every div has a order number of 0. If we place an order with the property 'order', we can 
+change the position of our divs, without looking at the og possitions in the html.*/
+.two{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    grid-column: span 2;
+}
+
+.three{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: span 2;
+}
+
