@@ -8,5 +8,8 @@ function loveCalculator (){
     var n = Math.random();
     n = n * 100;
     n = Math.floor(n);
-    return document.getElementById("answer").innerHTML = ("Your love score is " + n + " %.");
+    if (n > 70){
+        return document.getElementById("answer").innerHTML = ("Your love score is " + n + " %." + " You are likely to live a greatttt love story." );
+    } else 
+    return document.getElementById("answer").innerHTML = ("Your love score is " + n + " %." + " Not worthy, run away.");
 }
